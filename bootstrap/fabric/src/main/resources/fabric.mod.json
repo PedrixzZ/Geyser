@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "${id}-fabric",
-  "version": "${version}",
+  "version": "3.3.1-23w05a-dirty",
   "name": "${name}-Fabric",
   "description": "A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition. ",
   "authors": [
@@ -23,9 +23,9 @@
     "geyser-fabric.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.14.18",
     "fabric": "*",
-    "minecraft": ">=1.20",
+    "minecraft": ">=23w05a",
     "fabric-permissions-api-v0": "*"
   }
 }
